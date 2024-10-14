@@ -14,9 +14,9 @@ $ sudo mkdir /etc/sysctl.d/; sudo cp -r "$HOME"/Downloads/sysctl/* /etc/sysctl.d
 ```
 $ sudo chown -R root:root /etc/sysctl.d/; sudo chown -R root:root /etc/sysctl.d/*
 ```
-- Remove `README.md` and `sysctl` directory if not needed
+- Remove `README.md`, `sysctl` directory and `LICENSE` if not needed
 ```
-$ sudo rm -rf /etc/sysctl.d/README.md; rm -rf ~/Downloads/sysctl/
+$ sudo rm -rf /etc/sysctl.d/README.md; sudo rm -rf /etc/sysctl.d/LICENSE; rm -rf ~/Downloads/sysctl/
 ```
 - Apply kernel parameters
 ```
