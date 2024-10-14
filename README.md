@@ -1,4 +1,4 @@
-## ⚙️ Sysctl hardening
+## ⚙️ sysctl hardening
 
 #### Usage:
 
